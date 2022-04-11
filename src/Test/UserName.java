@@ -14,7 +14,7 @@ public class UserName {
 	
 	int i = 0;
 	while (i >= 0) {
-		System.out.println("Enter your name: \n(Use Keyword \'exit\' to end.)");
+		System.out.println("Enter your name: \n(Use Keyword \'exit\' to end.)\n");
 		String enteredUser = user.nextLine();
 		if (enteredUser.equals("exit")) {
 			break;
